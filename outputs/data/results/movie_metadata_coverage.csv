@@ -1,0 +1,6 @@
+variable,available,missing,n_film_linked_records,share_missing
+movie metadata via exact song-artist / internal movie ID,4682,1,4683,0.00021353833013025838
+worldwide box office,4272,411,4683,0.0877642536835362
+production budget,2581,2102,4683,0.4488575699338031
+genre,4682,1,4683,0.00021353833013025838
+IMDb votes / rating / country / language,0,4683,4683,1.0

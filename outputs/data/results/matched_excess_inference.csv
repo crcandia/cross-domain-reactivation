@@ -1,0 +1,6 @@
+method,estimate,se,ci_low,ci_high,n_pairs,n_treated_songs,n_control_songs,n_bootstrap,primary
+naive paired SE,2.5222,0.0876,2.3504,2.6939,12095,4534,4764,,no
+bootstrap over matched pairs,2.5222,0.0875,2.3458,2.69,12095,4534,4764,2000.0,no
+block bootstrap over treated song records,2.5222,0.0886,2.3444,2.6894,12095,4534,4764,2000.0,no
+cluster bootstrap over reused control song records,2.5222,0.1284,2.2692,2.7799,12095,4534,4764,2000.0,no
+two-way pigeonhole bootstrap (treated x control song records),2.5222,0.1811,2.1586,2.8677,12095,4534,4764,2000.0,yes

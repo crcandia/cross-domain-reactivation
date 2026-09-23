@@ -1,0 +1,4 @@
+memory_regime,n_songs,first_post_change_mean,first_post_change_sem,max_post_change_mean,max_post_change_sem
+dormant/below-expected,119,9.395,0.854,12.731,0.832
+intermediate-memory,118,5.619,0.817,8.898,0.801
+persistent/above-expected,119,2.899,0.659,5.992,0.744

@@ -1,0 +1,22 @@
+\begin{table}[!htbp]
+\centering
+\footnotesize
+\caption{Static artist-catalog attention differences among non-film Billboard songs.}
+\label{tab:si-catalog-static}
+\renewcommand{\arraystretch}{1.05}
+\begin{tabular}{llllllll}
+\toprule
+Platform & Snapshot & Estimate & 95\% CI & $p$ & N obs. & Exposed & Control \\
+\midrule
+Spotify & 2016 & 2.32 & [1.81, 2.83] & $<0.001$ & 10,966 & 6,858 & 4,108 \\
+Spotify & 2017 & 3.57 & [3.05, 4.09] & $<0.001$ & 12,550 & 8,253 & 4,297 \\
+Spotify & 2022 & 2.08 & [1.59, 2.57] & $<0.001$ & 15,487 & 9,356 & 6,131 \\
+Spotify & 2025 & 2.34 & [1.90, 2.79] & $<0.001$ & 18,442 & 10,671 & 7,771 \\
+Spotify & pooled & 2.47 & [2.22, 2.72] & $<0.001$ & 57,445 & 35,138 & 22,307 \\
+Last.fm & 2017 & 0.68 & [0.60, 0.75] & $<0.001$ & 12,419 & 8,179 & 4,240 \\
+\bottomrule
+\end{tabular}
+\begin{flushleft}\footnotesize
+Exposure: the same normalized artist/band string has another Billboard song linked to a film. Models adjust for song age, squared age, Billboard weeks, peak position, artist catalog size, artist total weeks excluding the focal song, best other-song peak, and superstar status; the pooled model adds snapshot fixed effects (HC1 intervals; the cluster-by-song variant appears in the SI inference table). Last.fm uses log1p cumulative listeners. Estimates describe adjusted attention differences across the observed artist groups.
+\end{flushleft}
+\end{table}

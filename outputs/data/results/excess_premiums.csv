@@ -1,0 +1,7 @@
+comparison,estimate,std_error,conf_low,conf_high,p_value,n,snapshot,layer
+Pooled film-linked excess premium,19.1199,0.1325,18.8601,19.3796,0.0,83780,pooled,broad attention-regime difference
+October 2016,16.43,0.2569,15.9265,16.9335,0.0,17346,2016-10,snapshot attention-regime difference
+July 2017,18.1943,0.2614,17.682,18.7067,0.0,18188,2017-07,snapshot attention-regime difference
+August 2022,19.8923,0.2691,19.3649,20.4197,0.0,22102,2022-08,snapshot attention-regime difference
+August 2025,21.2946,0.2626,20.7799,21.8092,0.0,26144,2025,snapshot attention-regime difference
+Film-embedded by snapshot (time-respecting),19.1463,0.1343,18.8831,19.4095,0.0,83780,pooled,time-respecting regime-level displacement

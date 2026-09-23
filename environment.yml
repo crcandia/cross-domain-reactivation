@@ -1,0 +1,18 @@
+name: cross-domain-reactivation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scipy
+  - statsmodels
+  - scikit-learn
+  - matplotlib
+  - jupyter
+  - nbconvert
+  - ipykernel
+  - tectonic
+  - pip
+  - pip:
+      - pyreadr

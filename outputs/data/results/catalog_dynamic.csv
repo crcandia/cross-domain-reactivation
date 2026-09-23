@@ -1,0 +1,5 @@
+term,estimate,std_error,conf_low,conf_high,p_value,n_song_snapshots
+pre (<= -2 years),5.3139,0.5125,4.3094,6.3185,0.0,66838
+event year,5.0882,0.7406,3.6366,6.5399,0.0,66838
+1-5 years post,5.3989,0.2536,4.9019,5.8959,0.0,66838
+>5 years post,3.6646,0.1051,3.4587,3.8705,0.0,66838

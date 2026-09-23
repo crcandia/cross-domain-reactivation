@@ -1,0 +1,6 @@
+definition,n_dormant_treated,n_dormant_control,n_matched_pairs,treated_change_mean,matched_control_change_mean,placebo_adjusted_did,boot_ci_low,boot_ci_high,permutation_p_value,did_no_replacement,n_matched_pairs_no_replacement,max_abs_smd_after
+"Low baseline Spotify attention, bottom quartile",97,8418,97,10.928,3.866,7.062,4.648,9.434,0.0,6.711,97,0.029
+"Low baseline Spotify attention, bottom tercile",124,9696,124,10.161,4.597,5.565,3.564,7.758,0.0,5.29,124,0.039
+"Reduced-form below-expected residual, bottom tercile",119,10378,119,9.395,5.639,3.756,1.916,5.757,0.0,3.605,119,0.062
+Historically successful but low baseline attention,19,886,19,10.842,6.105,4.737,-0.053,9.737,0.737,4.737,19,0.125
+Older low-attention songs,94,6833,94,10.926,3.202,7.723,5.329,10.224,0.0,7.532,94,0.033

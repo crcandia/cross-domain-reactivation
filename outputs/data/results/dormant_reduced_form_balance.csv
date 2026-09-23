@@ -1,0 +1,41 @@
+covariate,treated_mean,control_mean,smd_after,definition
+baseline_popularity,23.432989690721648,23.278350515463917,0.016579407721758522,"Low baseline Spotify attention, bottom quartile"
+baseline_age,48.86701030927831,48.72268041237109,0.01917355996958084,"Low baseline Spotify attention, bottom quartile"
+chart_year,1968.5670103092784,1968.680412371134,-0.015202913937805934,"Low baseline Spotify attention, bottom quartile"
+weeks,9.927835051546392,9.824742268041238,0.022302511229488165,"Low baseline Spotify attention, bottom quartile"
+peak_pos,39.50515463917526,38.76288659793814,0.025940425920357092,"Low baseline Spotify attention, bottom quartile"
+artist_catalog_size_excl_song,13.072164948453608,12.88659793814433,0.012767989099595894,"Low baseline Spotify attention, bottom quartile"
+artist_total_weeks_excl_song,123.4020618556701,118.94845360824742,0.028960611199125515,"Low baseline Spotify attention, bottom quartile"
+artist_superstar_top1pct,0.1134020618556701,0.1134020618556701,0.0,"Low baseline Spotify attention, bottom quartile"
+baseline_popularity,26.741935483870968,26.701612903225808,0.0038399483483801066,"Low baseline Spotify attention, bottom tercile"
+baseline_age,46.683064516128994,46.35040322580641,0.03412554493257545,"Low baseline Spotify attention, bottom tercile"
+chart_year,1970.758064516129,1971.0483870967741,-0.02986423211691054,"Low baseline Spotify attention, bottom tercile"
+weeks,10.701612903225806,10.64516129032258,0.010259211057203906,"Low baseline Spotify attention, bottom tercile"
+peak_pos,36.016129032258064,35.17741935483871,0.029348135989064723,"Low baseline Spotify attention, bottom tercile"
+artist_catalog_size_excl_song,15.096774193548388,14.475806451612904,0.03945744555163402,"Low baseline Spotify attention, bottom tercile"
+artist_total_weeks_excl_song,151.88709677419354,148.69354838709677,0.018112068751729358,"Low baseline Spotify attention, bottom tercile"
+artist_superstar_top1pct,0.1532258064516129,0.1532258064516129,0.0,"Low baseline Spotify attention, bottom tercile"
+baseline_popularity,34.76470588235294,34.48739495798319,0.015366708824730478,"Reduced-form below-expected residual, bottom tercile"
+baseline_age,31.831512605041986,31.926050420168036,-0.005288377673605145,"Reduced-form below-expected residual, bottom tercile"
+chart_year,1985.5546218487395,1985.5042016806722,0.0028267608570403512,"Reduced-form below-expected residual, bottom tercile"
+weeks,15.739495798319327,15.563025210084033,0.01794997186645025,"Reduced-form below-expected residual, bottom tercile"
+peak_pos,29.65546218487395,29.19327731092437,0.017637944740098815,"Reduced-form below-expected residual, bottom tercile"
+artist_catalog_size_excl_song,12.369747899159664,11.630252100840336,0.06212252266041404,"Reduced-form below-expected residual, bottom tercile"
+artist_total_weeks_excl_song,154.21848739495798,149.98319327731093,0.024305642474117692,"Reduced-form below-expected residual, bottom tercile"
+artist_superstar_top1pct,0.14285714285714285,0.14285714285714285,0.0,"Reduced-form below-expected residual, bottom tercile"
+baseline_popularity,27.789473684210527,27.736842105263158,0.009357630483824817,Historically successful but low baseline attention
+baseline_age,47.45789473684206,47.444736842105215,0.001265437201629199,Historically successful but low baseline attention
+chart_year,1969.8947368421052,1969.9473684210527,-0.005123633364124753,Historically successful but low baseline attention
+weeks,15.947368421052632,16.05263157894737,-0.03498557142706638,Historically successful but low baseline attention
+peak_pos,7.421052631578948,6.684210526315789,0.11754058649540691,Historically successful but low baseline attention
+artist_catalog_size_excl_song,15.157894736842104,13.368421052631579,0.12522899920368397,Historically successful but low baseline attention
+artist_total_weeks_excl_song,148.05263157894737,145.57894736842104,0.015133006623482236,Historically successful but low baseline attention
+artist_superstar_top1pct,0.10526315789473684,0.10526315789473684,0.0,Historically successful but low baseline attention
+baseline_popularity,23.148936170212767,23.01063829787234,0.014706302146377382,Older low-attention songs
+baseline_age,49.512765957446774,49.46755319148933,0.0067612937695197,Older low-attention songs
+chart_year,1967.9255319148936,1967.9468085106382,-0.0031964141965407956,Older low-attention songs
+weeks,9.659574468085106,9.617021276595745,0.00955984955927019,Older low-attention songs
+peak_pos,40.329787234042556,39.787234042553195,0.01896503432926091,Older low-attention songs
+artist_catalog_size_excl_song,13.191489361702128,12.936170212765957,0.01741301981395699,Older low-attention songs
+artist_total_weeks_excl_song,123.58510638297872,118.40425531914893,0.03333089434494968,Older low-attention songs
+artist_superstar_top1pct,0.11702127659574468,0.11702127659574468,0.0,Older low-attention songs

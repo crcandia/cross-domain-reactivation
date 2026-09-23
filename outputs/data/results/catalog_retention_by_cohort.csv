@@ -1,0 +1,4 @@
+cohort,n_pairs,n_unique_treated_songs,n_unique_control_songs,n_unique_treated_artists,n_unique_control_artists,treated_prior_mean,control_prior_mean,treated_current_mean,control_current_mean,treated_change,control_change,difference_in_change,naive_ci_low,naive_ci_high,primary_se,primary_ci_low,primary_ci_high,classification
+2017-07,6794,6794,1927,1293,802,29.4773,29.2929,34.1082,33.6512,4.6309,4.3583,0.2726,0.1167,0.4285,0.3166,-0.3567,0.8895,NO DIFFERENTIAL RETENTION
+2022-08,7712,7712,2197,1358,889,32.9209,32.753,36.3348,36.6438,3.4139,3.8908,-0.4769,-0.727,-0.2269,0.6383,-1.781,0.7145,REVERSE
+2025,9285,9283,3049,1485,1053,37.7297,37.6869,37.7621,37.3232,0.0324,-0.3637,0.3961,0.2237,0.5685,0.3005,-0.2198,0.9506,REACTIVATION-LIKE

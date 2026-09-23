@@ -1,0 +1,22 @@
+\begin{table}[!htbp]
+\centering
+\footnotesize
+\caption{Replacement-aware inference for the pooled prior-attention matched-excess premium.}
+\label{tab:si-matched-excess-inference}
+\renewcommand{\arraystretch}{1.05}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.26\linewidth}>{\centering\arraybackslash}p{0.082\linewidth}>{\centering\arraybackslash}p{0.05\linewidth}>{\centering\arraybackslash}p{0.09\linewidth}>{\centering\arraybackslash}p{0.065\linewidth}>{\centering\arraybackslash}p{0.072\linewidth}>{\centering\arraybackslash}p{0.072\linewidth}>{\raggedright\arraybackslash}p{0.09\linewidth}}
+\toprule
+Method & Estimate & SE & 95\% CI & Pairs & \makecell[b]{Treated\\ songs} & \makecell[b]{Control\\ songs} & Role \\
+\midrule
+naive paired SE & 2.52 & 0.088 & [2.35, 2.69] & 12,095 & 4,534 & 4,764 &  \\
+bootstrap over matched pairs & 2.52 & 0.087 & [2.35, 2.69] & 12,095 & 4,534 & 4,764 &  \\
+block bootstrap over treated song records & 2.52 & 0.089 & [2.34, 2.69] & 12,095 & 4,534 & 4,764 &  \\
+cluster bootstrap over reused control song records & 2.52 & 0.128 & [2.27, 2.78] & 12,095 & 4,534 & 4,764 &  \\
+two-way pigeonhole bootstrap (treated x control song records) & 2.52 & 0.181 & [2.16, 2.87] & 12,095 & 4,534 & 4,764 & primary \\
+\bottomrule
+\end{tabular}
+\begin{flushleft}\footnotesize
+All methods evaluate the identical estimand on the identical 12{,}095-pair set with fixed pair-level excess differences; only the uncertainty calculation varies. The two-way pigeonhole bootstrap independently resamples treated song records and reused control song records and reweights pairs by the product of their cluster draw counts; it is primary because the pooled comparison both reuses control songs and repeats Billboard song identities across snapshots. Percentile intervals use 2{,}000 replications.
+\end{flushleft}
+\end{table}

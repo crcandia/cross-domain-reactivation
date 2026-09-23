@@ -1,0 +1,14 @@
+filename,role,status
+data/raw/2025_Data/Hot100_2025.csv,Billboard Hot 100 weekly chart base,OK
+data/raw/2025_Data/data_bill_spoty_merged.csv,Spotify August 2025 popularity snapshot,OK
+data/raw/2025_Data/data_completa_IMDb.csv,IMDb soundtrack song-film linkage from student thesis repository,OK
+data/raw/2025_Data/data_completa_boxoffice.csv,Box Office Mojo movie metadata and box-office table from student thesis repository,OK
+data/raw/2025_Data/datos_spotify_agosto_2022.csv,Spotify August 2022 popularity snapshot,OK
+data/raw/2025_Data/datos_spotify_julio_2017.csv,Spotify July 2017 popularity snapshot,OK
+data/raw/2025_Data/datos_spotify_octubre_2016.csv,Spotify October 2016 popularity snapshot,OK
+data/raw/2025_Data/one_row_per_song.csv,Billboard song-artist aggregate derived from Hot100_2025,OK
+data/raw/2025_Data/songs_movies_processed.RData,Legacy preserved song-movie RData cache for replication cross-checks,OK
+data/raw/lastfm_spotify_2016_2017/Spoty_Final_ENE_2016_2.RData,Spotify January 2016 low-support audit snapshot,OK
+data/raw/lastfm_spotify_2016_2017/all_data_billboard_30_Jul_2017.csv,Billboard companion table for July 2017 Last.fm/Spotify lineage,OK
+data/raw/lastfm_spotify_2016_2017/data_lastfm_Jul31_2017.csv,Last.fm July 2017 listener/playcount snapshot,OK
+data/raw/student_thesis_linkage/BSPO_jul17_aparece.csv,Student thesis July 2017 Billboard-Spotify-film linkage input used for Last.fm analytical support,OK

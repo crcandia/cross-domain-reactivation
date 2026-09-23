@@ -1,0 +1,6 @@
+event_bin,n_song_snapshots,n_unique_songs
+-1,272,207
+0,184,184
+1 to 5,1046,747
+<= -2,343,213
+>5,15102,4503

@@ -1,0 +1,13 @@
+cohort,method,estimate,se,ci_low,ci_high,n_pairs,n_treated_artists,n_control_artists,n_bootstrap,primary
+2017-07,naive paired SE,0.2726,0.0796,0.1167,0.4285,6794,1293,802,,no
+2017-07,block bootstrap over treated artist identities,0.2726,0.1182,0.0392,0.5107,6794,1293,802,2000.0,no
+2017-07,cluster bootstrap over reused control artist identities,0.2726,0.2767,-0.3019,0.7962,6794,1293,802,2000.0,no
+2017-07,two-way pigeonhole bootstrap (treated x control artist identities),0.2726,0.3166,-0.3567,0.8895,6794,1293,802,2000.0,yes
+2022-08,naive paired SE,-0.4769,0.1276,-0.727,-0.2269,7712,1358,889,,no
+2022-08,block bootstrap over treated artist identities,-0.4769,0.217,-0.898,-0.0504,7712,1358,889,2000.0,no
+2022-08,cluster bootstrap over reused control artist identities,-0.4769,0.5829,-1.6116,0.6785,7712,1358,889,2000.0,no
+2022-08,two-way pigeonhole bootstrap (treated x control artist identities),-0.4769,0.6383,-1.781,0.7145,7712,1358,889,2000.0,yes
+2025,naive paired SE,0.3961,0.088,0.2237,0.5685,9285,1485,1053,,no
+2025,block bootstrap over treated artist identities,0.3961,0.1597,0.0776,0.696,9285,1485,1053,2000.0,no
+2025,cluster bootstrap over reused control artist identities,0.3961,0.2277,-0.048,0.8583,9285,1485,1053,2000.0,no
+2025,two-way pigeonhole bootstrap (treated x control artist identities),0.3961,0.3005,-0.2198,0.9506,9285,1485,1053,2000.0,yes

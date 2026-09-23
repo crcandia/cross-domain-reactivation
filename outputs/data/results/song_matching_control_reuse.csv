@@ -1,0 +1,8 @@
+design,snapshot,n_pairs,n_unique_controls,median_control_reuse,p95_control_reuse,max_control_reuse
+baseline-attention + historical + artist-success NN,2017-07,3798.0,2307.0,1.0,4.0,15.0
+baseline-attention + historical + artist-success NN,2022-08,3950.0,2469.0,1.0,4.0,15.0
+baseline-attention + historical + artist-success NN,2025,4349.0,2829.0,1.0,4.0,13.0
+historical + artist-success NN,2016-10,3825.0,2749.0,1.0,3.0,12.0
+historical + artist-success NN,2017-07,4133.0,2961.0,1.0,3.0,12.0
+historical + artist-success NN,2022-08,4373.0,3196.0,1.0,3.0,11.0
+historical + artist-success NN,2025,4616.0,3426.0,1.0,3.0,11.0

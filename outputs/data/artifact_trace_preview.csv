@@ -1,0 +1,39 @@
+artifact_id,artifact_type,main_or_si,latex_label,claim_or_threat_id,evidence_family,source_notebook,validation_status
+data_audit_table,table,main,tab:data-audit,C1,data construction and linkage,00-01,PASS
+table_si_platform_coverage,table,si,tab:si-platform-coverage,C2,data construction and linkage,01,PASS
+table_si_movie_metadata_coverage,table,si,tab:si-movie-metadata-coverage,C3,data construction and linkage,01,PASS
+figure1_attention_regimes_matching,figure,main,fig:attention-matching,C5;C11;C12,platform coverage and attention differences; matched song comparisons,02,PASS
+table_si_attention_premiums,table,si,tab:si-attention-premiums,C5,platform coverage and attention differences,02,PASS
+table_si_song_matching_estimates,table,si,tab:si-song-matching-estimates,C11;C12,matched song-level comparisons,02,PASS
+table_si_song_matching_inference,table,si,tab:si-song-matching-inference,C14,matched song-level comparisons,02,PASS
+table_memory_decay_key_results,table,main,tab:memory-decay-key-results,C9,expected-attention baselines,03,PASS
+figure2_expected_memory_excess_dormant,figure,main,fig:excess-memory,C7;C9;C10;C14,expected-attention baselines; lower pre-film excess-attention reactivation,03,PASS
+table_si_memorydecay_support,table,si,tab:si-memorydecay-support,C7,expected-attention baselines,03,PASS
+table_si_memorydecay_fits,table,si,tab:si-memorydecay-fits,C7;C8,expected-attention baselines,03,PASS
+table_si_decay_equivalent_audit,table,si,tab:si-decay-equivalent-audit,C10,expected-attention baselines,03,PASS
+table_si_matching_balance,table,si,tab:si-matching-balance,C13,matched song-level comparisons,02-03,PASS
+table_si_matched_excess_inference,table,si,tab:si-matched-excess-inference,C14,matched song-level comparisons,03,PASS
+table_si_dormant_definitions,table,si,tab:si-dormant-definitions,C15,lower pre-film excess-attention-song reactivation,03,PASS
+table_si_dormant_integrated_inference,table,si,tab:si-dormant-integrated-inference,C14;C16,lower pre-film excess-attention-song reactivation,03,PASS
+figure3_embedding_visibility_temporal,figure,main,fig:embedding-temporal,C17;C18;C19;C20,embedding and visibility; temporal consistency,04,PASS
+table_si_repeated_embedding,table,si,tab:si-repeated-embedding,C17,embedding and visibility,04,PASS
+table_si_visibility_models,table,si,tab:si-visibility-models,C18,embedding and visibility,04,PASS
+table_si_visibility_selection,table,si,tab:si-visibility-selection,C18,embedding and visibility,04,PASS
+table_si_temporal_event_time,table,si,tab:si-temporal-event-time,C19,temporal consistency,04,PASS
+table_si_strict_temporal,table,si,tab:si-strict-temporal,C20,temporal consistency,03-04,PASS
+figure4_artist_catalog_regimes,figure,main,fig:catalog,C21;C23;C24,artist-catalog attention,05,PASS
+table_si_catalog_static,table,si,tab:si-catalog-static,C21,artist-catalog attention,05,PASS
+table_si_catalog_dynamic,table,si,tab:si-catalog-dynamic,C22,artist-catalog attention,05,PASS
+table_si_catalog_matching,table,si,tab:si-catalog-matching,C23,artist-catalog attention,05,PASS
+table_si_catalog_balance,table,si,tab:si-catalog-balance,C23,artist-catalog attention,05,PASS
+table_si_catalog_matching_inference,table,si,tab:si-catalog-matching-inference,C23,artist-catalog attention,05,PASS
+figure_si_catalog_event_time_selection,figure,si,fig:si-catalog-event-time-selection,C22,artist-catalog attention,05,PASS
+table_si_catalog_retention,table,si,tab:si-catalog-retention,C24,artist-catalog attention,05,PASS
+table_si_catalog_retention_loco,table,si,tab:si-catalog-retention-loco,C24,artist-catalog attention,05,PASS
+table_si_cluster_inference,table,si,tab:si-cluster-inference,C24,inference and robustness,02;04;05,PASS
+table_si_robustness_summary,table,si,tab:si-robustness-summary,C25,inference and robustness,05,PASS
+figure_si_crossplatform_embedding,figure,si,fig:si-crossplatform-embedding,C17;C6,embedding and visibility,04;05,PASS
+figure_si_dormant_rtm,figure,si,fig:si-dormant-rtm,C15,lower pre-film excess-attention-song reactivation,03,PASS
+figure_si_memorydecay_model_comparison,figure,si,fig:si-memorydecay-model-comparison,C7;C8,expected-attention baselines,03,PASS
+figure_si_dormant_pseudoevent,figure,si,fig:si-dormant-pseudoevent,C14,lower pre-film excess-attention-song reactivation,03,PASS
+figure_si_lastfm_age_profile,figure,si,fig:si-lastfm-age-profile,C6,platform coverage and attention differences,05,PASS

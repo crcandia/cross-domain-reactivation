@@ -1,0 +1,11 @@
+design,snapshot,n_treated_available,n_matched_treated,n_unique_controls,n_controls_available,replacement,estimate,std_error,conf_low,conf_high,p_value,max_abs_smd_before,max_abs_smd_after,platform
+catalog historical + artist-success NN,2016-10,6858,6858,1997.0,6664,with replacement,2.494,0.1836,2.1341,2.8539,0.0,1.0744,0.1251,Spotify
+catalog historical + artist-success NN,2017-07,8253,8253,2201.0,5803,with replacement,2.89,0.1803,2.5366,3.2434,0.0,0.9739,0.1592,Spotify
+catalog baseline-attention + artist-success NN,2017-07,6794,6794,1927.0,4621,with replacement,0.457,0.0866,0.2873,0.6268,0.0,0.9591,0.1634,Spotify
+catalog historical + artist-success NN,2022-08,9356,9356,2932.0,8376,with replacement,1.3803,0.1851,1.0175,1.7431,0.0,0.8788,0.1544,Spotify
+catalog baseline-attention + artist-success NN,2022-08,7712,7712,2197.0,5325,with replacement,-0.309,0.131,-0.5657,-0.0523,0.0183,0.9685,0.2008,Spotify
+catalog historical + artist-success NN,2025,10671,10671,3435.0,10857,with replacement,1.4564,0.1713,1.1206,1.7921,0.0,0.8665,0.1784,Spotify
+catalog baseline-attention + artist-success NN,2025,9285,9285,3050.0,7961,with replacement,0.4389,0.0915,0.2596,0.6182,0.0,0.8633,0.1682,Spotify
+catalog baseline-attention + artist-success NN,pooled (inverse-variance),23791,23791,,17907,with replacement within snapshot,0.3065,0.0567,0.1954,0.4176,,0.9685,0.2008,Spotify
+catalog historical + artist-success NN,pooled (inverse-variance),35138,35138,,31700,with replacement within snapshot,2.0438,0.0899,1.8675,2.22,,1.0744,0.1784,Spotify
+catalog baseline-attention + artist-success NN,2017-07,6727,6727,1892.0,4548,with replacement,0.2928,0.0212,0.2513,0.3344,0.0,0.9578,0.1646,Last.fm

@@ -1,0 +1,21 @@
+\begin{table}[!htbp]
+\centering
+\footnotesize
+\caption{Catalog attention changes on the fixed prior-attention matched pairs.}
+\label{tab:si-catalog-retention}
+\renewcommand{\arraystretch}{1.1}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.105\linewidth}>{\centering\arraybackslash}p{0.062\linewidth}>{\centering\arraybackslash}p{0.072\linewidth}>{\centering\arraybackslash}p{0.072\linewidth}>{\centering\arraybackslash}p{0.072\linewidth}>{\centering\arraybackslash}p{0.072\linewidth}>{\centering\arraybackslash}p{0.072\linewidth}>{\centering\arraybackslash}p{0.105\linewidth}>{\raggedright\arraybackslash}p{0.18\linewidth}}
+\toprule
+Cohort & Pairs & \makecell[b]{Treated\\ artists} & \makecell[b]{Control\\ artists} & \makecell[b]{Treated\\ change} & \makecell[b]{Control\\ change} & \makecell[b]{Diff.\ in\\ change} & \makecell[b]{Primary\\ 95\% CI} & Observed change pattern \\
+\midrule
+July 2017 & 6,794 & 1,293 & 802 & 4.63 & 4.36 & 0.27 & [-0.36, 0.89] & treated and controls both increased; treated increased slightly more \\
+August 2022 & 7,712 & 1,358 & 889 & 3.41 & 3.89 & -0.48 & [-1.78, 0.71] & treated increased less than controls \\
+August 2025 & 9,285 & 1,485 & 1,053 & 0.03 & -0.36 & 0.40 & [-0.22, 0.95] & treated remained approximately stable; controls declined \\
+Pooled (fixed-effect, descriptive) & 23,791 & -- & -- & -- & -- & 0.25 & [-0.15, 0.66] & descriptive pooled interval includes zero \\
+\bottomrule
+\end{tabular}
+\begin{flushleft}\footnotesize
+Prior-to-current change scores on the identical prior-attention matched catalog pairs; no rematching is performed. The primary interval is a two-way pigeonhole bootstrap over treated and reused control artist identities (2{,}000 deterministic-seed replications), because catalog exposure is defined at the artist level and pairs are dependent within artists on both sides. The pooled row is a descriptive inverse-variance combination of three heterogeneous cohorts and should not override the cohort-specific pattern. Pattern descriptions summarize observed group changes and are descriptive; the artist-level confidence intervals provide the inferential assessment.
+\end{flushleft}
+\end{table}

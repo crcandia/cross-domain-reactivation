@@ -1,0 +1,22 @@
+\begin{table}[!htbp]
+\centering
+\small
+\caption{Analytic data components.}
+\label{tab:data-audit}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.27\linewidth}>{\raggedright\arraybackslash}p{0.11\linewidth}>{\raggedright\arraybackslash}p{0.56\linewidth}@{}}
+\toprule
+Data component & Support & Definition / description \\
+\midrule
+Billboard universe & 32,124 & Billboard Hot 100 song-artist records rebuilt from the weekly chart file \\
+Film-linked Billboard records & 4,683 & Records linked to at least one IMDb soundtrack appearance by exact normalized song/artist keys \\
+High-coverage Spotify panel & 83,785 & Song-snapshot observations across October 2016, July 2017, August 2022, and August 2025 \\
+Expected-attention support & 83,780 & Song-snapshot observations with valid nonnegative song age \\
+Last.fm snapshot & 17,988 & July 2017 cumulative listener reach (raw Listeners field, analyzed as log1p listeners) \\
+Movie metadata & 4,682 & Film-linked records with exact internal-ID movie metadata \\
+Worldwide box office & 4,272 & Film-linked records with worldwide box-office metadata \\
+\bottomrule
+\end{tabular}
+\begin{flushleft}\footnotesize
+The main Spotify analyses use only the four high-coverage snapshots listed above. Platform coverage, linkage, and movie-metadata missingness diagnostics are reported in the SI Appendix, Data Construction and Platform Coverage.
+\end{flushleft}
+\end{table}

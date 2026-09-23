@@ -1,0 +1,22 @@
+\begin{table}[!htbp]
+\centering
+\footnotesize
+\caption{Baseline-attention definitions: support and single-assignment placebo-adjusted changes.}
+\label{tab:si-dormant-definitions}
+\renewcommand{\arraystretch}{1.05}
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.13\linewidth}>{\centering\arraybackslash}p{0.088\linewidth}>{\centering\arraybackslash}p{0.055\linewidth}>{\centering\arraybackslash}p{0.072\linewidth}>{\centering\arraybackslash}p{0.075\linewidth}>{\centering\arraybackslash}p{0.078\linewidth}>{\centering\arraybackslash}p{0.108\linewidth}>{\centering\arraybackslash}p{0.068\linewidth}>{\centering\arraybackslash}p{0.108\linewidth}>{\centering\arraybackslash}p{0.065\linewidth}}
+\toprule
+Definition & \makecell[b]{Selected\\ treated} & Pairs & \makecell[b]{Treated\\ change} & \makecell[b]{Matched\\ control\\ change} & \makecell[b]{Placebo-\\ adjusted} & \makecell[b]{Bootstrap\\ 95\% CI} & \makecell[b]{Perm.\\ $p$} & \makecell[b]{No-\\replacement} & \makecell[b]{Max\\ $|$SMD$|$} \\
+\midrule
+Low baseline Spotify attention, bottom quartile & 97 & 97 & 10.93 & 3.87 & 7.06 & [4.65, 9.43] & $<0.001$ & 6.71 & 0.029 \\
+Low baseline Spotify attention, bottom tercile & 124 & 124 & 10.16 & 4.60 & 5.57 & [3.56, 7.76] & $<0.001$ & 5.29 & 0.039 \\
+Baseline-popularity regression residual, bottom tercile & 119 & 119 & 9.39 & 5.64 & 3.76 & [1.92, 5.76] & $<0.001$ & 3.60 & 0.062 \\
+Historically successful but low baseline attention & 19 & 19 & 10.84 & 6.11 & 4.74 & [-0.05, 9.74] & 0.737 & 4.74 & 0.125 \\
+Older low-attention songs & 94 & 94 & 10.93 & 3.20 & 7.72 & [5.33, 10.22] & $<0.001$ & 7.53 & 0.033 \\
+\bottomrule
+\end{tabular}
+\begin{flushleft}\footnotesize
+Four definitions use raw baseline Spotify popularity; the fifth uses the bottom tercile of residuals from a regression of baseline popularity on age, age squared, Billboard weeks, and peak position. Treated-derived thresholds are applied to both treated songs and pseudo-event never-film controls; one seeded pseudo-event assignment (single-assignment robustness, not the primary integrated design). The historically-successful low-attention definition has low support and is exploratory. Bootstrap intervals resample matched treated songs (1{,}000 draws); permutation $p$-values shuffle film-linked labels within the pooled set selected by each definition (2{,}000 draws).
+\end{flushleft}
+\end{table}

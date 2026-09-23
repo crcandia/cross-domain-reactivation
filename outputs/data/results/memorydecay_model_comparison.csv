@@ -1,0 +1,13 @@
+snapshot,model,rmse_log,rmse_linear,n_age_cells
+October 2016,canonical_biexponential_log,0.0515,1.3608,59
+October 2016,exponential_log,0.0664,2.409,59
+October 2016,lognormal_log,0.1259,3.0779,59
+July 2017,canonical_biexponential_log,0.0659,1.8043,60
+July 2017,exponential_log,0.0731,2.8993,60
+July 2017,lognormal_log,0.1517,3.8237,60
+August 2022,canonical_biexponential_log,0.0593,2.074,65
+August 2022,exponential_log,0.077,2.3405,65
+August 2022,lognormal_log,0.1441,4.0743,65
+August 2025,canonical_biexponential_log,0.0868,2.7624,68
+August 2025,exponential_log,0.1133,3.2131,68
+August 2025,lognormal_log,0.1954,5.3809,68

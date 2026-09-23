@@ -1,0 +1,4 @@
+evidence_layer,delta_excess_points,age_distribution,n_observations,median_years,iqr_low,iqr_high,share_nonestimable
+Baseline-attention matched excess premium,2.5222,ages of baseline-attention matched treated songs,12095,3.7793,3.0056,4.64,0.0002
+Strict temporal event contrast,2.4512,baseline ages of the 93 strict temporal matched treated songs,93,3.4087,2.2025,4.9362,0.0
+Strict temporal post contrast,2.9849,baseline ages of the 93 strict temporal matched treated songs,93,4.114,2.6637,5.9391,0.0

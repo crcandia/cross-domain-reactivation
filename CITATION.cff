@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript."
+title: "Cross-Domain Reactivation of Collective Attention in Music and Film"
+authors:
+  - family-names: Candia
+    given-names: Cristian
+  - family-names: Utreras-Cifuentes
+    given-names: Camila
+  - family-names: Droguett
+    given-names: Francisca

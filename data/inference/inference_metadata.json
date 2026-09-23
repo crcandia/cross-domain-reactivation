@@ -1,0 +1,29 @@
+{
+  "analysis_version": "canonical_gridsearch_refit_2026_09_10",
+  "bootstrap_refit_version": "canonical_gridsearch_refit_2026_09_10",
+  "inference_code_sha256": {
+    "dormant.py": "bdc10e9d07865c5c968579484173e8ccff8485384890120e945683368e4b4bb2",
+    "memorydecay.py": "9f41595d7410eb1fdc59a9ed202c92a64096e75414428c80a8c2419ca700450c",
+    "util.py": "5fddabe0a4d1792997c7afb5fcc4c34fab88cc77af0163310d35cb867595327e"
+  },
+  "inference_input_sha256": {
+    "spotify_song_snapshot_panel.csv": "5591f25d5d96e6f351e76e23b8c40764478691c0c2d790c2519698c60996020f",
+    "master_song_panel.csv": "c1c2fe4766be47fedf166eb93b0d9e069d1a01d1cf9ac9acfe059089e0ffa8e4"
+  },
+  "baseline_estimator": "aggregate_age_means + fit_canonical_gridsearch (shared primary estimator)",
+  "resampling_scope": "existing conditional treated-group resampling and observed control pool; one pseudo-event assignment per replication",
+  "dormant_analytical_support_fingerprint": "8cbff8c72d92285b375041a9f3536253431215e65a2bb8ff8e071c93ce2eb01d",
+  "seed_strategy": "Pseudo-event assignments use deterministic consecutive seeds starting at 202607060; the nested bootstrap uses deterministic consecutive seeds starting at 202607600. Seeds are recorded per replication row.",
+  "files": [
+    {
+      "filename": "dormant_pseudoevent_monte_carlo_replications.csv",
+      "sha256": "f088f5fa0de26b6eff7b542f18da0d9d06e14b76e4e2a14316224ce136e7f55c",
+      "rows": 500
+    },
+    {
+      "filename": "dormant_integrated_bootstrap_replications.csv",
+      "sha256": "1497759b9fcc904989018dc9fb7e903808fdd6c2451ce080b1b3344d230e906d",
+      "rows": 250
+    }
+  ]
+}

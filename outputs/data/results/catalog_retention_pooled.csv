@@ -1,0 +1,2 @@
+summary,n_cohorts,n_pairs,difference_in_change,se,ci_low,ci_high,cochran_q,i_squared_pct,note
+pooled fixed-effect (descriptive),3,23791,0.2525,0.2062,-0.1517,0.6568,1.5384,0.0,"inverse-variance combination of three heterogeneous cohorts using the primary artist-level variances; descriptive summary only, with only three cohorts the heterogeneity statistics are indicative"

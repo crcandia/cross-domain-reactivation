@@ -1,0 +1,13 @@
+comparison,n_matched_pairs,n_unique_controls,control_reuse_share,estimate,naive_paired_se,naive_ci_low,naive_ci_high,boot_treated_se,boot_treated_ci_low,boot_treated_ci_high,cluster_control_se,cluster_control_ci_low,cluster_control_ci_high,design,snapshot,variant
+catalog baseline-attention | 2017-07 (with replacement),6794,1927.0,0.7164,0.457,0.0866,0.2873,0.6268,0.0893,0.2698,0.6508,0.1745,0.1144,0.7933,catalog baseline-attention + artist-success NN,2017-07,with replacement
+catalog baseline-attention | 2017-07 (no replacement),3271,3271.0,0.0,1.2947,0.1304,1.039,1.5504,,,,,,,catalog baseline-attention + artist-success NN,2017-07,no replacement
+catalog baseline-attention | 2017-07 (stricter caliper 2.0),6794,2019.0,0.7028,0.262,0.0813,0.1026,0.4214,,,,,,,catalog baseline-attention + artist-success NN,2017-07,stricter caliper
+catalog baseline-attention | 2017-07 (CEM decade x baseline-pop quintile),6794,,,1.5699,,,,,,,,,,catalog baseline-attention + artist-success NN,2017-07,CEM
+catalog baseline-attention | 2022-08 (with replacement),7712,2197.0,0.7151,-0.309,0.131,-0.5657,-0.0523,0.1298,-0.5592,-0.0669,0.3166,-0.9702,0.2569,catalog baseline-attention + artist-success NN,2022-08,with replacement
+catalog baseline-attention | 2022-08 (no replacement),3740,3740.0,0.0,0.3166,0.1828,-0.0416,0.6748,,,,,,,catalog baseline-attention + artist-success NN,2022-08,no replacement
+catalog baseline-attention | 2022-08 (stricter caliper 2.0),7712,2293.0,0.7027,-0.3463,0.1271,-0.5955,-0.0972,,,,,,,catalog baseline-attention + artist-success NN,2022-08,stricter caliper
+catalog baseline-attention | 2022-08 (CEM decade x baseline-pop quintile),7712,,,-0.6993,,,,,,,,,,catalog baseline-attention + artist-success NN,2022-08,CEM
+catalog baseline-attention | 2025 (with replacement),9285,3049.0,0.6716,0.4389,0.0915,0.2596,0.6182,0.0889,0.2562,0.609,0.1839,0.0896,0.8138,catalog baseline-attention + artist-success NN,2025,with replacement
+catalog baseline-attention | 2025 (no replacement),5268,5265.0,0.0,1.0243,0.1239,0.7815,1.267,,,,,,,catalog baseline-attention + artist-success NN,2025,no replacement
+catalog baseline-attention | 2025 (stricter caliper 2.0),9285,3186.0,0.6569,0.4839,0.0866,0.3142,0.6536,,,,,,,catalog baseline-attention + artist-success NN,2025,stricter caliper
+catalog baseline-attention | 2025 (CEM decade x baseline-pop quintile),9285,,,1.1725,,,,,,,,,,catalog baseline-attention + artist-success NN,2025,CEM

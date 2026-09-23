@@ -1,0 +1,2 @@
+model,term,formula,exposure_definition,estimate,hc1_se,hc1_ci_low,hc1_ci_high,cluster_se,cluster_ci_low,cluster_ci_high,cluster_p,n_observations,n_clusters,interpretation
+"Film visibility (continuous, time-respecting, primary)",log1p max worldwide box office realized by snapshot,attention ~ log1p_max_worldwide_by_snapshot + age + I(age**2) + weeks + peak_pos + movie_count_by_snapshot + C(snapshot),maximum worldwide box office realized by each snapshot,1.1465,0.0581,1.0326,1.2604,0.1016,0.9474,1.3457,0.0,15245,4294,film-level visibility gradient among film-linked observations

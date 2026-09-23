@@ -1,0 +1,3 @@
+has_realized_boxoffice,n_song_snapshots,n_unique_songs,mean_age,mean_weeks,mean_peak_pos,mean_realized_films,mean_spotify_popularity
+False,1301,430,44.255,12.919,33.877,1.056,40.899
+True,15245,4294,38.713,15.855,26.492,2.549,50.287

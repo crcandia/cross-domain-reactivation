@@ -1,0 +1,4 @@
+tercile,adjusted_contrast_vs_low,conf_low,conf_high,n_song_snapshots,role
+low,0.0,,,5085,reference
+middle,3.7315,2.8391,4.624,5080,"adjusted contrast, cluster-by-song 95% CI"
+high,6.3712,5.3865,7.3558,5080,"adjusted contrast, cluster-by-song 95% CI"

@@ -1,0 +1,14 @@
+raw_input,classification,role
+2025_Data/Hot100_2025.csv,source-level raw input,weekly Billboard Hot 100 chart entries; basis of the song-artist universe
+2025_Data/one_row_per_song.csv,reconstructable derived shortcut,song-artist aggregate; reconstructed exactly from Hot100_2025.csv below and not used as a primary runtime input
+2025_Data/datos_spotify_octubre_2016.csv,earliest preserved study input,"Spotify popularity snapshot, October 2016"
+2025_Data/datos_spotify_julio_2017.csv,earliest preserved study input,"Spotify popularity snapshot, July 2017"
+2025_Data/datos_spotify_agosto_2022.csv,earliest preserved study input,"Spotify popularity snapshot, August 2022"
+2025_Data/data_bill_spoty_merged.csv,earliest preserved study input,"Spotify popularity snapshot, August 2025"
+2025_Data/data_completa_IMDb.csv,earliest preserved study input,IMDb soundtrack song-film linkage (student thesis lineage)
+2025_Data/data_completa_boxoffice.csv,earliest preserved study input,Box Office Mojo movie metadata (student thesis lineage)
+2025_Data/songs_movies_processed.RData,legacy cache (excluded from runtime),legacy song-movie cache retained only for lineage cross-checks
+lastfm_spotify_2016_2017/data_lastfm_Jul31_2017.csv,earliest preserved study input,Last.fm July 2017 listener snapshot (raw Listeners field)
+lastfm_spotify_2016_2017/all_data_billboard_30_Jul_2017.csv,earliest preserved study input,Billboard companion table preserved with the July 2017 collection
+lastfm_spotify_2016_2017/Spoty_Final_ENE_2016_2.RData,legacy cache (excluded from runtime),legacy processed frame from an early Spotify collection; preserved with the raw data and not used in any analysis
+student_thesis_linkage/BSPO_jul17_aparece.csv,earliest preserved study input,July 2017 Billboard-Spotify-film linkage input used to reconstruct Last.fm analytical support
