@@ -25,6 +25,19 @@ Inputs_No_Upload/
 scratch/
 PNAS_Submission_*/
 
+# Manuscript and internal project notes.
+/manuscript/
+/PUBLIC_RELEASE.md
+/MANIFEST.md
+/BOOTSTRAP_REFIT.md
+/data/README_BOXOFFICE.md
+/data/public_exclude.txt
+
+# Generated manuscript checks.
+/outputs/data/artifact_trace.csv
+/outputs/data/artifact_trace_preview.csv
+/outputs/data/validation_results.csv
+
 # Record-level analytical datasets derived from third-party inputs.
 # Keep them locally for the full author workflow, but do not redistribute them
 # through GitHub. Aggregate/model result objects remain trackable below.
@@ -49,18 +62,9 @@ outputs/data/validation/
 
 # Binary publication/rendered artifacts are regenerated from tracked notebook/TeX sources.
 outputs/figures/
-manuscript/Figures/
 
 # Compiled/build artifacts that are regenerated from tracked sources.
 outputs/pdfs/
-manuscript/*.pdf
-manuscript/*.aux
-manuscript/*.log
-manuscript/*.out
-manuscript/*.bbl
-manuscript/*.blg
-manuscript/*.synctex.gz
-manuscript/Version_anterior/
 
 # Temporary files
 *~
