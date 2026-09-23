@@ -1,22 +1,22 @@
-\begin{table}[!htbp]
+\begin{table}[H]
 \centering
 \small
-\caption{Analytic data components.}
+\caption{Data foundation for distinguishing prior visibility from attention renewal.}
 \label{tab:data-audit}
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.27\linewidth}>{\raggedright\arraybackslash}p{0.11\linewidth}>{\raggedright\arraybackslash}p{0.56\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.24\linewidth}>{\raggedright\arraybackslash}p{0.17\linewidth}>{\raggedright\arraybackslash}p{0.53\linewidth}@{}}
 \toprule
-Data component & Support & Definition / description \\
+Data component & Coverage & Analytical role \\
 \midrule
-Billboard universe & 32,124 & Billboard Hot 100 song-artist records rebuilt from the weekly chart file \\
-Film-linked Billboard records & 4,683 & Records linked to at least one IMDb soundtrack appearance by exact normalized song/artist keys \\
-High-coverage Spotify panel & 83,785 & Song-snapshot observations across October 2016, July 2017, August 2022, and August 2025 \\
-Expected-attention support & 83,780 & Song-snapshot observations with valid nonnegative song age \\
-Last.fm snapshot & 17,988 & July 2017 cumulative listener reach (raw Listeners field, analyzed as log1p listeners) \\
-Movie metadata & 4,682 & Film-linked records with exact internal-ID movie metadata \\
-Worldwide box office & 4,272 & Film-linked records with worldwide box-office metadata \\
+Billboard Hot 100 universe & 32,124 records & Defines the population of previously successful songs and supplies chart-history measures \\
+Observed film reuse & 4,683 records & Identifies Billboard records with at least one observed soundtrack appearance and their first observed film year \\
+Spotify attention & 83,785 song-snapshots & Four high-coverage snapshots (2016, 2017, 2022, 2025) used for broad and temporal attention comparisons \\
+Expected-attention support & 83,780 song-snapshots & Valid nonnegative song age, covering 28,310 distinct Billboard song-artist records, used to estimate age- and snapshot-specific expected attention \\
+Last.fm listener reach & 17,988 records & July 2017 cumulative listeners, providing a complementary measure of listener reach \\
+Expanded film metadata & 4,682 film-linked records & Movie-level information used to characterize repeated embedding and film context \\
+Worldwide box office & 4,272 film-linked records & Recorded worldwide grosses used as a proxy for film-level visibility \\
 \bottomrule
 \end{tabular}
 \begin{flushleft}\footnotesize
-The main Spotify analyses use only the four high-coverage snapshots listed above. Platform coverage, linkage, and movie-metadata missingness diagnostics are reported in the SI Appendix, Data Construction and Platform Coverage.
+Counts describe the broad linked sources before temporal and matching restrictions. Detailed platform coverage, linkage procedures, and movie-metadata missingness are reported in the SI Appendix, Data Construction and Platform Coverage.
 \end{flushleft}
 \end{table}
