@@ -58,6 +58,9 @@ outputs/data/results/billboard_key_diagnostics.csv
 
 # Internal manual-validation material and evidence.
 outputs/data/validation/
+/data/validation/
+/notebooks/06_validation_and_manuscript.ipynb
+/src/cdr/publication_table_refresh.py
 
 
 # Binary publication/rendered artifacts are regenerated from tracked notebook/TeX sources.
